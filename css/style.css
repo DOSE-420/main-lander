@@ -449,7 +449,7 @@ section.main-banner {
   width: 378px;
   height: 378px;
   content: '';
-  right: -25%;
+  right: 0%;
   z-index: 1;
 }
 
@@ -2094,6 +2094,4 @@ width: 99%;
 .read_more2{
 display:none;
 }
-
 }
-
