@@ -453,7 +453,7 @@ section.main-banner {
   z-index: 1;
 }
 
-/* .main-banner .header-text::after {
+.main-banner .header-text::after {
   position: absolute;
   background-image: url(../img/banner-left-dec.png);
   width: 214px;
@@ -462,7 +462,7 @@ section.main-banner {
   left: 0;
   bottom: -240px;
   z-index: 1;
-} */
+} 
 
 .main-banner .header-text h6 {
   position: relative;
@@ -2094,4 +2094,5 @@ width: 99%;
 .read_more2{
 display:none;
 }
+
 }
