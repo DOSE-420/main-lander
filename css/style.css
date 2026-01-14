@@ -429,7 +429,7 @@ section.main-banner {
 }
 
 .main-banner {
-  padding-top: 180px;
+  padding-top: 50px;
 }
 
 .main-banner .right-image {
@@ -2095,3 +2095,4 @@ width: 99%;
 display:none;
 }
 }
+
