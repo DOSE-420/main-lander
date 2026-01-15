@@ -9,7 +9,7 @@ Licence under Creative Commons Attribution 3.0
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
 
 @font-face {
-    font-family: 'Amazon Ember Display';
+    font-family: 'AmazonEmberDisplay';
     src: url('fonts/AmazonEmberDisplay.ttf') format('truetype');
 }
 
@@ -2117,3 +2117,4 @@ width: 99%;
 display:none;
 }
 }
+
