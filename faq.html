@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+
+<title>FAQ | Global Central Consultancy Pvt. Ltd.</title>
+
+<link rel="icon" href="favicon.png" type="image/png">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+<style>
+/* ===== FAQ HERO ===== */
+.faq-hero {
+  background: linear-gradient(135deg, #0031d1, #4f7cff);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.faq-hero h1 { font-size: 40px; margin-bottom: 10px; font-weight: 700; }
+.faq-hero p { font-size: 18px; opacity: 0.9; }
+
+/* ===== FAQ ACCORDION ===== */
+.faq-wrapper {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.faq-card {
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question .icon {
+  transition: transform 0.3s ease;
+}
+
+.faq-answer {
+  display: none;
+  padding: 0 20px 20px 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.faq-card.active .icon {
+  transform: rotate(45deg);
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .faq-hero h1 { font-size: 28px; }
+  .faq-question { font-size: 16px; }
+  .faq-answer { font-size: 15px; }
+}
+</style>
+
+</head>
+<body>
+
+<!-- HEADER (same as home) -->
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.jpg" style="height:60px;" alt="logo"></a>
+      </div>
+      <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+          <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="main-nav" class="collapse navbar-collapse navStyle">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#aboutUs">About Us</a></li>
+            <li><a href="index.html#clients">Universities</a></li>
+            <li><a href="index.html#service">Services</a></li>
+            <li class="active"><a href="faq.html">FAQ</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- FAQ HERO -->
+<section class="faq-hero">
+  <h1>Frequently Asked Questions</h1>
+  <p>Your questions answered clearly and transparently</p>
+</section>
+
+<!-- FAQ ACCORDION -->
+<section class="faq-section page_section">
+  <div class="faq-wrapper">
+
+    <div class="faq-card">
+      <button class="faq-question">Which countries do you provide education services for? <span class="icon">+</span></button>
+      <div class="faq-answer">
+        We specialize in study abroad services for Japan, Australia, and the United Kingdom, including universities, colleges, and language institutions.
+      </div>
+    </div>
+
+    <div class="faq-card">
+      <button class="faq-question">Is the counseling session free? <span class="icon">+</span></button>
+      <div class="faq-answer">
+        Yes. Our initial counseling session is completely free and handled by experienced advisors.
+      </div>
+    </div>
+
+    <div class="faq-card">
+      <button class="faq-question">Do you assist with student visa processing? <span class="icon">+</span></button>
+      <div class="faq-answer">
+        Yes, we provide full visa documentation support, interview preparation, and guidance.
+      </div>
+    </div>
+
+    <div class="faq-card">
+      <button class="faq-question">Do you offer IELTS or Japanese language training? <span class="icon">+</span></button>
+      <div class="faq-answer">
+        Yes, we offer IELTS and Japanese language preparation with experienced instructors.
+      </div>
+    </div>
+
+    <div class="faq-card">
+      <button class="faq-question">Where is your office located? <span class="icon">+</span></button>
+      <div class="faq-answer">
+        Our office is located in Samakhushi, Kathmandu. Appointments are recommended.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER (same as home) -->
+<footer id="footer">
+  <div class="contact-top">
+    <div><i class="fas fa-phone-alt"></i> +977 01-5363716</div>
+    <div><i class="fas fa-envelope"></i> globalnepal.joi@gmail.com</div>
+    <div><i class="fas fa-map-marker-alt"></i> Samakhushi, Kathmandu</div>
+  </div>
+  <div class="row primary">
+    <div class="column about">
+      <h3>Global Central Consultancy Pvt. Ltd.</h3>
+      <p>Guiding students towards internationally recognized education and career opportunities.</p>
+    </div>
+    <div class="column links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="faq.html">F.A.Q</a></li>
+        <li><a href="#cookies-policy">Cookies Policy</a></li>
+        <li><a href="#terms-of-services">Terms Of Service</a></li>
+        <li><a href="#support">Support</a></li>
+        <li><a href="#careers">Careers</a></li>
+      </ul>
+    </div>
+    <div class="column subscribe">
+      <h3>Subscribe</h3>
+      <input type="email" placeholder="Your email">
+      <button>Subscribe</button>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>© 2026 Global Central Consultancy Pvt. Ltd. All Rights Reserved</p>
+  </div>
+</footer>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('.faq-question').click(function() {
+    const $card = $(this).closest('.faq-card');
+
+    // Close all other FAQ cards
+    $('.faq-card').not($card).removeClass('active')
+      .find('.faq-answer').slideUp(300);
+    $('.faq-card').not($card).find('.icon').removeClass('rotate');
+
+    // Toggle clicked card
+    $card.toggleClass('active');
+    $card.find('.faq-answer').stop(true,true).slideToggle(300);
+    $card.find('.icon').toggleClass('rotate');
+  });
+});
+</script>
+
+</body>
+</html>
