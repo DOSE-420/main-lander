@@ -5,6 +5,19 @@ Licence under Creative Commons Attribution 3.0
 Do not remove the back-link in this web template 
 -------------------------------------------------------*/
 
+function openDialog() {
+  document.getElementById("dialogOverlay").style.display = "flex";
+}
+
+function closeDialog() {
+  document.getElementById("dialogOverlay").style.display = "none";
+}
+
+// Close on outside click
+document.getElementById("dialogOverlay").addEventListener("click", function(e){
+  if (e.target === this) closeDialog();
+});
+
 $(window).load(function() {
     jQuery('#all').click();
     return false;
